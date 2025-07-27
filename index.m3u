@@ -114,6 +114,11 @@ https://op-group1-swiftservehd-1.dens.tv/h/h224/02.m3u8
 #EXTVLCOPT:network-caching=1000
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 
+#EXTINF:-1 tvg-id="INEWS TV" tvg-name="INEWS TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_83.png",INEWS TV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
+
 #EXTINF:-1 tvg-id="METRO TV" tvg-name="METRO TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/metro_tv.png",METRO TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
