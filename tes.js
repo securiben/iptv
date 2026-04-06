@@ -4,16 +4,16 @@ async function fetchData() {
     try {
         // Simulasi async task
         const result = await new Promise((resolve) => {
-            setTimeout(() => resolve("Data async"), 125000);
+            setTimeout(() => resolve("Data monitor"), 5000);
         });
 
         console.log(result);
     } catch (error) {
-        console.error("Error: wahhhhh", error.message);
+        console.error("Error: last changes", error.message);
     }
 }
 
 fetchData();
 
-// satu dua tiga
+// satu dua tiga last
 error()'
