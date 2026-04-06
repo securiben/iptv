@@ -1,10 +1,10 @@
-// tes.js
+// leak.js
 
 async function fetchData() {
     try {
         // Simulasi async task
         const result = await new Promise((resolve) => {
-            setTimeout(() => resolve("Data loaded"), 1000);
+            setTimeout(() => resolve("Data"), 1000);
         });
 
         console.log(result);
@@ -14,3 +14,5 @@ async function fetchData() {
 }
 
 fetchData();
+
+// satu dua tiga
